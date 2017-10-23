@@ -1,0 +1,260 @@
+src/priv/lab1/Node.java:3:	Avoid short class names like Node
+src/priv/lab1/Node.java:3:	headerCommentRequirement Required
+src/priv/lab1/Node.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/priv/lab1/Node.java:4:	To avoid mistakes add a comment at the beginning of the data field if you want a default access modifier
+src/priv/lab1/Node.java:4:	Use explicit scoping instead of the default package private level
+src/priv/lab1/Node.java:4:	fieldCommentRequirement Required
+src/priv/lab1/Node.java:5:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/priv/lab1/Node.java:5:	To avoid mistakes add a comment at the beginning of the weight field if you want a default access modifier
+src/priv/lab1/Node.java:5:	Use explicit scoping instead of the default package private level
+src/priv/lab1/Node.java:5:	fieldCommentRequirement Required
+src/priv/lab1/Node.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/priv/lab1/Node.java:6:	To avoid mistakes add a comment at the beginning of the next field if you want a default access modifier
+src/priv/lab1/Node.java:6:	Use explicit scoping instead of the default package private level
+src/priv/lab1/Node.java:6:	fieldCommentRequirement Required
+src/priv/lab1/Node.java:8:	Parameter 'str' is not assigned and could be declared final
+src/priv/lab1/Node.java:11:	Assigning an Object to null is a code smell.  Consider refactoring.
+src/priv/lab1/TextGraph.java:1:	Possible God class (WMC=80, ATFD=31, TCC=0.027777777777777776)
+src/priv/lab1/TextGraph.java:11:	The class 'TextGraph' has a Cyclomatic Complexity of 9 (Highest = 21).
+src/priv/lab1/TextGraph.java:11:	The class 'TextGraph' has a Modified Cyclomatic Complexity of 8 (Highest = 18).
+src/priv/lab1/TextGraph.java:11:	The class 'TextGraph' has a Standard Cyclomatic Complexity of 8 (Highest = 18).
+src/priv/lab1/TextGraph.java:11:	headerCommentRequirement Required
+src/priv/lab1/TextGraph.java:12:	Avoid using implementation types like 'Vector'; use the interface instead
+src/priv/lab1/TextGraph.java:12:	Avoid variables with short names like G
+src/priv/lab1/TextGraph.java:12:	Consider replacing this Vector with the newer java.util.List
+src/priv/lab1/TextGraph.java:12:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/priv/lab1/TextGraph.java:12:	The field name indicates a constant but its modifiers do not
+src/priv/lab1/TextGraph.java:12:	To avoid mistakes add a comment at the beginning of the G field if you want a default access modifier
+src/priv/lab1/TextGraph.java:12:	Use ArrayList instead of Vector
+src/priv/lab1/TextGraph.java:12:	Use explicit scoping instead of the default package private level
+src/priv/lab1/TextGraph.java:12:	Variables should start with a lowercase character, 'G' starts with uppercase character.
+src/priv/lab1/TextGraph.java:12:	fieldCommentRequirement Required
+src/priv/lab1/TextGraph.java:13:	Avoid using implementation types like 'Vector'; use the interface instead
+src/priv/lab1/TextGraph.java:13:	Consider replacing this Vector with the newer java.util.List
+src/priv/lab1/TextGraph.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/priv/lab1/TextGraph.java:13:	To avoid mistakes add a comment at the beginning of the vertexs field if you want a default access modifier
+src/priv/lab1/TextGraph.java:13:	Use ArrayList instead of Vector
+src/priv/lab1/TextGraph.java:13:	Use explicit scoping instead of the default package private level
+src/priv/lab1/TextGraph.java:13:	fieldCommentRequirement Required
+src/priv/lab1/TextGraph.java:14:	Avoid variables with short names like p
+src/priv/lab1/TextGraph.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/priv/lab1/TextGraph.java:14:	To avoid mistakes add a comment at the beginning of the p field if you want a default access modifier
+src/priv/lab1/TextGraph.java:14:	Use explicit scoping instead of the default package private level
+src/priv/lab1/TextGraph.java:14:	fieldCommentRequirement Required
+src/priv/lab1/TextGraph.java:17:	Parameter 'word' is not assigned and could be declared final
+src/priv/lab1/TextGraph.java:19:	Potential violation of Law of Demeter (method chain calls)
+src/priv/lab1/TextGraph.java:20:	A method should have only one exit point, and that should be the last statement in the method
+src/priv/lab1/TextGraph.java:29:	Parameter 'filename' is not assigned and could be declared final
+src/priv/lab1/TextGraph.java:29:	The method 'creatGraph' has a Cyclomatic Complexity of 20.
+src/priv/lab1/TextGraph.java:29:	The method 'creatGraph' has a Modified Cyclomatic Complexity of 15.
+src/priv/lab1/TextGraph.java:29:	The method 'creatGraph' has a Standard Cyclomatic Complexity of 15.
+src/priv/lab1/TextGraph.java:29:	publicMethodCommentRequirement Required
+src/priv/lab1/TextGraph.java:31:	Avoid variables with short names like fr
+src/priv/lab1/TextGraph.java:31:	Local variable 'fr' could be declared final
+src/priv/lab1/TextGraph.java:32:	Avoid variables with short names like br
+src/priv/lab1/TextGraph.java:32:	Local variable 'br' could be declared final
+src/priv/lab1/TextGraph.java:33:	Avoid variables with short names like s
+src/priv/lab1/TextGraph.java:36:	Avoid variables with short names like t
+src/priv/lab1/TextGraph.java:39:	Avoid variables with short names like i
+src/priv/lab1/TextGraph.java:41:	Avoid assignments in operands
+src/priv/lab1/TextGraph.java:41:	Found 'DD'-anomaly for variable 's' (lines '41'-'42').
+src/priv/lab1/TextGraph.java:41:	Found 'DU'-anomaly for variable 's' (lines '41'-'92').
+src/priv/lab1/TextGraph.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:42:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/priv/lab1/TextGraph.java:43:	Found 'DD'-anomaly for variable 'rear' (lines '43'-'49').
+src/priv/lab1/TextGraph.java:44:	Found 'DD'-anomaly for variable 'str1' (lines '44'-'47').
+src/priv/lab1/TextGraph.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:47:	Found 'DU'-anomaly for variable 'str1' (lines '47'-'92').
+src/priv/lab1/TextGraph.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:48:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:50:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:53:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:57:	Use equals() to compare object references.
+src/priv/lab1/TextGraph.java:57:	Use equals() to compare strings instead of '==' or '!='
+src/priv/lab1/TextGraph.java:57:	Use equals() to compare strings instead of '==' or '!='
+src/priv/lab1/TextGraph.java:60:	Potential violation of Law of Demeter (static property access)
+src/priv/lab1/TextGraph.java:62:	Potential violation of Law of Demeter (static property access)
+src/priv/lab1/TextGraph.java:70:	Avoid instantiating new objects inside loops
+src/priv/lab1/TextGraph.java:76:	Avoid instantiating new objects inside loops
+src/priv/lab1/TextGraph.java:77:	Avoid instantiating new objects inside loops
+src/priv/lab1/TextGraph.java:88:	Avoid empty catch blocks
+src/priv/lab1/TextGraph.java:90:	Avoid empty catch blocks
+src/priv/lab1/TextGraph.java:94:	publicMethodCommentRequirement Required
+src/priv/lab1/TextGraph.java:97:	Avoid variables with short names like t
+src/priv/lab1/TextGraph.java:98:	System.out.print is used
+src/priv/lab1/TextGraph.java:100:	System.out.print is used
+src/priv/lab1/TextGraph.java:103:	System.out.println is used
+src/priv/lab1/TextGraph.java:107:	Parameter 'word1' is not assigned and could be declared final
+src/priv/lab1/TextGraph.java:107:	Parameter 'word2' is not assigned and could be declared final
+src/priv/lab1/TextGraph.java:107:	The method 'queryBridgeWords' has a Cyclomatic Complexity of 21.
+src/priv/lab1/TextGraph.java:107:	The method 'queryBridgeWords' has a Modified Cyclomatic Complexity of 18.
+src/priv/lab1/TextGraph.java:107:	The method 'queryBridgeWords' has a Standard Cyclomatic Complexity of 18.
+src/priv/lab1/TextGraph.java:107:	The method queryBridgeWords() has an NPath complexity of 1066
+src/priv/lab1/TextGraph.java:107:	publicMethodCommentRequirement Required
+src/priv/lab1/TextGraph.java:108:	Avoid variables with short names like B1
+src/priv/lab1/TextGraph.java:108:	Consider replacing this Vector with the newer java.util.List
+src/priv/lab1/TextGraph.java:108:	Local variable 'B1' could be declared final
+src/priv/lab1/TextGraph.java:108:	Use ArrayList instead of Vector
+src/priv/lab1/TextGraph.java:108:	Variables should start with a lowercase character, 'B1' starts with uppercase character.
+src/priv/lab1/TextGraph.java:109:	Avoid variables with short names like B2
+src/priv/lab1/TextGraph.java:109:	Consider replacing this Vector with the newer java.util.List
+src/priv/lab1/TextGraph.java:109:	Local variable 'B2' could be declared final
+src/priv/lab1/TextGraph.java:109:	Use ArrayList instead of Vector
+src/priv/lab1/TextGraph.java:109:	Variables should start with a lowercase character, 'B2' starts with uppercase character.
+src/priv/lab1/TextGraph.java:110:	Avoid variables with short names like B3
+src/priv/lab1/TextGraph.java:110:	Consider replacing this Vector with the newer java.util.List
+src/priv/lab1/TextGraph.java:110:	Local variable 'B3' could be declared final
+src/priv/lab1/TextGraph.java:110:	Use ArrayList instead of Vector
+src/priv/lab1/TextGraph.java:110:	Variables should start with a lowercase character, 'B3' starts with uppercase character.
+src/priv/lab1/TextGraph.java:111:	Avoid variables with short names like t
+src/priv/lab1/TextGraph.java:113:	Found 'DD'-anomaly for variable 'if1' (lines '113'-'124').
+src/priv/lab1/TextGraph.java:114:	Found 'DD'-anomaly for variable 'if2' (lines '114'-'121').
+src/priv/lab1/TextGraph.java:115:	Avoid variables with short names like i
+src/priv/lab1/TextGraph.java:116:	Avoid variables with short names like j
+src/priv/lab1/TextGraph.java:120:	Potential violation of Law of Demeter (static property access)
+src/priv/lab1/TextGraph.java:121:	Found 'DD'-anomaly for variable 'if2' (lines '121'-'127').
+src/priv/lab1/TextGraph.java:123:	Potential violation of Law of Demeter (static property access)
+src/priv/lab1/TextGraph.java:124:	Found 'DD'-anomaly for variable 'if1' (lines '124'-'136').
+src/priv/lab1/TextGraph.java:126:	Potential violation of Law of Demeter (static property access)
+src/priv/lab1/TextGraph.java:127:	Found 'DD'-anomaly for variable 'if2' (lines '127'-'127').
+src/priv/lab1/TextGraph.java:127:	Found 'DD'-anomaly for variable 'if2' (lines '127'-'139').
+src/priv/lab1/TextGraph.java:135:	Potential violation of Law of Demeter (static property access)
+src/priv/lab1/TextGraph.java:136:	Found 'DD'-anomaly for variable 'if1' (lines '136'-'124').
+src/priv/lab1/TextGraph.java:136:	Found 'DD'-anomaly for variable 'if1' (lines '136'-'136').
+src/priv/lab1/TextGraph.java:138:	Potential violation of Law of Demeter (static property access)
+src/priv/lab1/TextGraph.java:139:	Found 'DD'-anomaly for variable 'if2' (lines '139'-'121').
+src/priv/lab1/TextGraph.java:139:	Found 'DD'-anomaly for variable 'if2' (lines '139'-'139').
+src/priv/lab1/TextGraph.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/priv/lab1/TextGraph.java:140:	Potential violation of Law of Demeter (method chain calls)
+src/priv/lab1/TextGraph.java:145:	Avoid unnecessary comparisons in boolean expressions
+src/priv/lab1/TextGraph.java:145:	Avoid unnecessary comparisons in boolean expressions
+src/priv/lab1/TextGraph.java:147:	Avoid unnecessary comparisons in boolean expressions
+src/priv/lab1/TextGraph.java:147:	Avoid unnecessary comparisons in boolean expressions
+src/priv/lab1/TextGraph.java:149:	Avoid unnecessary comparisons in boolean expressions
+src/priv/lab1/TextGraph.java:149:	Avoid unnecessary comparisons in boolean expressions
+src/priv/lab1/TextGraph.java:154:	Potential violation of Law of Demeter (method chain calls)
+src/priv/lab1/TextGraph.java:162:	Found 'DD'-anomaly for variable 'result' (lines '162'-'165').
+src/priv/lab1/TextGraph.java:162:	Found 'DD'-anomaly for variable 'result' (lines '162'-'169').
+src/priv/lab1/TextGraph.java:162:	Found 'DD'-anomaly for variable 'result' (lines '162'-'171').
+src/priv/lab1/TextGraph.java:165:	Prefer StringBuffer over += for concatenating strings
+src/priv/lab1/TextGraph.java:169:	Prefer StringBuffer over += for concatenating strings
+src/priv/lab1/TextGraph.java:171:	Prefer StringBuffer over += for concatenating strings
+src/priv/lab1/TextGraph.java:180:	Parameter 'inputText' is not assigned and could be declared final
+src/priv/lab1/TextGraph.java:180:	The method 'generateNewText' has a Cyclomatic Complexity of 14.
+src/priv/lab1/TextGraph.java:180:	publicMethodCommentRequirement Required
+src/priv/lab1/TextGraph.java:181:	Avoid variables with short names like s
+src/priv/lab1/TextGraph.java:181:	Local variable 's' could be declared final
+src/priv/lab1/TextGraph.java:181:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/priv/lab1/TextGraph.java:192:	Avoid variables with short names like B
+src/priv/lab1/TextGraph.java:192:	Consider replacing this Vector with the newer java.util.List
+src/priv/lab1/TextGraph.java:192:	Found 'DU'-anomaly for variable 'B' (lines '192'-'234').
+src/priv/lab1/TextGraph.java:192:	Local variable 'B' could be declared final
+src/priv/lab1/TextGraph.java:192:	Use ArrayList instead of Vector
+src/priv/lab1/TextGraph.java:192:	Variables should start with a lowercase character, 'B' starts with uppercase character.
+src/priv/lab1/TextGraph.java:193:	Found 'DD'-anomaly for variable 'label' (lines '193'-'220').
+src/priv/lab1/TextGraph.java:193:	Found 'DD'-anomaly for variable 'rear' (lines '193'-'198').
+src/priv/lab1/TextGraph.java:193:	Found 'DU'-anomaly for variable 'label' (lines '193'-'234').
+src/priv/lab1/TextGraph.java:193:	Found 'DU'-anomaly for variable 'rear' (lines '193'-'234').
+src/priv/lab1/TextGraph.java:194:	Found 'DD'-anomaly for variable 'bridge' (lines '194'-'204').
+src/priv/lab1/TextGraph.java:194:	Found 'DD'-anomaly for variable 'result' (lines '194'-'222').
+src/priv/lab1/TextGraph.java:194:	Found 'DD'-anomaly for variable 'str1' (lines '194'-'196').
+src/priv/lab1/TextGraph.java:194:	Found 'DU'-anomaly for variable 'bridge' (lines '194'-'234').
+src/priv/lab1/TextGraph.java:194:	Found 'DU'-anomaly for variable 'str1' (lines '194'-'234').
+src/priv/lab1/TextGraph.java:194:	Found 'DU'-anomaly for variable 'str2' (lines '194'-'234').
+src/priv/lab1/TextGraph.java:195:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:196:	Found 'DD'-anomaly for variable 'str1' (lines '196'-'196').
+src/priv/lab1/TextGraph.java:196:	Found 'DU'-anomaly for variable 'str1' (lines '196'-'234').
+src/priv/lab1/TextGraph.java:197:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:197:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:199:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:199:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:199:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:202:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:203:	Use equals() to compare object references.
+src/priv/lab1/TextGraph.java:203:	Use equals() to compare strings instead of '==' or '!='
+src/priv/lab1/TextGraph.java:203:	Use equals() to compare strings instead of '==' or '!='
+src/priv/lab1/TextGraph.java:205:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:206:	Found 'DD'-anomaly for variable 'front1' (lines '206'-'206').
+src/priv/lab1/TextGraph.java:206:	Found 'DU'-anomaly for variable 'front1' (lines '206'-'234').
+src/priv/lab1/TextGraph.java:206:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:208:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:210:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:213:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:213:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:215:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:215:	Potential violation of Law of Demeter (object not created locally)
+src/priv/lab1/TextGraph.java:218:	Found 'DD'-anomaly for variable 'front1' (lines '218'-'206').
+src/priv/lab1/TextGraph.java:218:	Found 'DU'-anomaly for variable 'front1' (lines '218'-'234').
+src/priv/lab1/TextGraph.java:220:	Found 'DD'-anomaly for variable 'label' (lines '220'-'220').
+src/priv/lab1/TextGraph.java:220:	Found 'DU'-anomaly for variable 'label' (lines '220'-'234').
+src/priv/lab1/TextGraph.java:222:	Prefer StringBuffer over += for concatenating strings
+src/priv/lab1/TextGraph.java:226:	Prefer StringBuffer over += for concatenating strings
+src/priv/lab1/TextGraph.java:229:	Prefer StringBuffer over += for concatenating strings
+src/priv/lab1/TextGraph.java:236:	publicMethodCommentRequirement Required
+src/priv/lab1/TextGraph.java:237:	Avoid variables with short names like n
+src/priv/lab1/TextGraph.java:237:	Local variable 'n' could be declared final
+src/priv/lab1/TextGraph.java:239:	Avoid variables with short names like c
+src/priv/lab1/TextGraph.java:239:	Found 'DD'-anomaly for variable 'c' (lines '239'-'246').
+src/priv/lab1/TextGraph.java:240:	Avoid variables with short names like i
+src/priv/lab1/TextGraph.java:241:	Avoid variables with short names like j
+src/priv/lab1/TextGraph.java:242:	Avoid variables with short names like k
+src/priv/lab1/TextGraph.java:243:	Avoid variables with short names like t
+src/priv/lab1/TextGraph.java:246:	Found 'DD'-anomaly for variable 'c' (lines '246'-'246').
+src/priv/lab1/TextGraph.java:246:	Found 'DD'-anomaly for variable 'c' (lines '246'-'256').
+src/priv/lab1/TextGraph.java:256:	Found 'DD'-anomaly for variable 'c' (lines '256'-'256').
+src/priv/lab1/TextGraph.java:256:	Found 'DU'-anomaly for variable 'c' (lines '256'-'273').
+src/priv/lab1/TextGraph.java:275:	Parameter 'word1' is not assigned and could be declared final
+src/priv/lab1/TextGraph.java:275:	Parameter 'word2' is not assigned and could be declared final
+src/priv/lab1/TextGraph.java:275:	publicMethodCommentRequirement Required
+src/priv/lab1/TextGraph.java:276:	Avoid variables with short names like i
+src/priv/lab1/TextGraph.java:277:	Avoid variables with short names like j
+src/priv/lab1/TextGraph.java:281:	A method should have only one exit point, and that should be the last statement in the method
+src/priv/lab1/TextGraph.java:283:	Avoid variables with short names like k
+src/priv/lab1/TextGraph.java:283:	Local variable 'k' could be declared final
+src/priv/lab1/TextGraph.java:285:	A method should have only one exit point, and that should be the last statement in the method
+src/priv/lab1/TextGraph.java:287:	A method should have only one exit point, and that should be the last statement in the method
+src/priv/lab1/TextGraph.java:295:	publicMethodCommentRequirement Required
+src/priv/lab1/TextGraph.java:298:	Avoid variables with short names like fr
+src/priv/lab1/TextGraph.java:298:	Local variable 'fr' could be declared final
+src/priv/lab1/TextGraph.java:301:	Consider replacing this Vector with the newer java.util.List
+src/priv/lab1/TextGraph.java:301:	Found 'DU'-anomaly for variable 'visited' (lines '301'-'342').
+src/priv/lab1/TextGraph.java:301:	Local variable 'visited' could be declared final
+src/priv/lab1/TextGraph.java:301:	Use ArrayList instead of Vector
+src/priv/lab1/TextGraph.java:302:	Consider replacing this Vector with the newer java.util.List
+src/priv/lab1/TextGraph.java:302:	Found 'DU'-anomaly for variable 'temp' (lines '302'-'342').
+src/priv/lab1/TextGraph.java:302:	Local variable 'temp' could be declared final
+src/priv/lab1/TextGraph.java:302:	Use ArrayList instead of Vector
+src/priv/lab1/TextGraph.java:304:	Avoid variables with short names like i
+src/priv/lab1/TextGraph.java:305:	Avoid variables with short names like t
+src/priv/lab1/TextGraph.java:310:	System.out.print is used
+src/priv/lab1/TextGraph.java:323:	System.out.print is used
+src/priv/lab1/TextGraph.java:325:	Potential violation of Law of Demeter (method chain calls)
+src/priv/lab1/TextGraph.java:325:	Potential violation of Law of Demeter (method chain calls)
+src/priv/lab1/TextGraph.java:326:	Found 'DU'-anomaly for variable 't' (lines '326'-'342').
+src/priv/lab1/TextGraph.java:335:	System.out.println is used
+src/priv/lab1/TextGraph.java:338:	Avoid empty catch blocks
+src/priv/lab1/TextGraph.java:344:	Parameter 'args' is not assigned and could be declared final
+src/priv/lab1/TextGraph.java:344:	publicMethodCommentRequirement Required
+src/priv/lab1/TextGraph.java:346:	Avoid variables with short names like T
+src/priv/lab1/TextGraph.java:346:	Local variable 'T' could be declared final
+src/priv/lab1/TextGraph.java:346:	Variables should start with a lowercase character, 'T' starts with uppercase character.
+src/priv/lab1/TextGraph.java:349:	System.out.println is used
+src/priv/lab1/TextGraph.java:351:	System.out.println is used
+src/priv/lab1/TextGraph.java:352:	System.out.println is used
+src/priv/lab1/TextGraph.java:353:	System.out.println is used
+src/priv/lab1/TextGraph.java:354:	System.out.println is used
+src/priv/lab1/TextGraph.java:355:	System.out.println is used
+src/priv/lab1/TextGraph.java:356:	System.out.println is used
+src/priv/lab1/TextGraph.java:357:	System.out.println is used
+src/priv/lab1/TextGraph.java:358:	System.out.println is used
+src/priv/lab1/TextGraph.java:359:	System.out.println is used
+src/priv/lab1/TextGraph.java:360:	System.out.println is used
+src/priv/lab1/TextGraph.java:361:	System.out.println is used
+src/priv/lab1/TextGraph.java:362:	System.out.println is used
+src/priv/lab1/TextGraph.java:363:	System.out.println is used
+src/priv/lab1/TextGraph.java:364:	System.out.println is used
+src/priv/lab1/TextGraph.java:365:	System.out.println is used
+src/priv/lab1/TextGraph.java:366:	System.out.println is used
+src/priv/lab1/TextGraph.java:367:	System.out.println is used
